@@ -1,0 +1,40 @@
+.container {
+    width: 1440px;
+    height: 696px;
+    background: rgba(0, 0, 0, 0.2);
+    background-image: url('../../images/background.jpg');
+    padding-left: 64px;
+    padding-top: 260px;
+}
+
+.tytle {
+    font-weight: 600;
+    font-size: 48px;
+    color: #f7f7f7;
+    margin-bottom: 16px;
+}
+
+.slogan {
+    font-weight: 600;
+    font-size: 24px;
+    color: #f7f7f7;
+    margin-bottom: 40px;
+}
+
+button {
+    border-radius: 200px;
+    border: none;
+    padding: 16px;
+    width: 173px;
+    height: 56px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    color: #fff;
+    background-color: #e44848;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d84343;
+}

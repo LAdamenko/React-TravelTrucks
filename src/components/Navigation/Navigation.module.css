@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    border-bottom: 1px solid #f2f4f7;
+    padding: 24px 64px;
+    width: auto;
+    height: 72px;
+    margin: 0;
+    /* justify-content: center; */
+    background-color: #f7f7f7;
+  }
+
+  .nav {
+    display: block;
+    justify-content: center;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .active {
+    color: #d84343;
+  }
