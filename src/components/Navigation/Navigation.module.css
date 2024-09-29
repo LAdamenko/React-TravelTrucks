@@ -1,19 +1,28 @@
 .container {
     display: flex;
-    gap: 32px;
-    list-style: none;
-    border-bottom: 1px solid #f2f4f7;
+    align-items: center;
+    justify-content: space-between;
     padding: 24px 64px;
-    width: auto;
+    border-bottom: 1px solid #f2f4f7;
+    width: 1440px;
     height: 72px;
-    margin: 0;
-    /* justify-content: center; */
     background-color: #f7f7f7;
+    margin: 0 auto;
   }
 
   .nav {
-    display: block;
+    display: flex;
     justify-content: center;
+    flex-grow: 1;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
   }
   
   .link {

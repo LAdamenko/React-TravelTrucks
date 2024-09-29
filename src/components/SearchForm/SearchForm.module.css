@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    border: none;
+    border-radius: 12px;
+    padding: 18px 218px 18px 20px;
+    width: 360px;
+    height: 56px;
+    margin-bottom: 40px;
+    background-color: #f7f7f7;
+}
+
+.label {
+    color: #6c717b;
+    margin-bottom: 8px;
+}
+
+.text {
+    font-weight: 500;
+    color: #475467;
+    margin-bottom: 32px;
+}
+
+.filterTytle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 24px;
+}

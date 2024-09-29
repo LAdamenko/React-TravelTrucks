@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 64px;
+    bottom: 80px;
+    border: 1px solid #dadde1;
+    border-radius: 10px;
+    padding: 44px;
+    width: 641px;
+    height: 588px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.tytle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-bottom: 8px;
+}
+
+.text {
+    color: #6c717b;
+    margin-bottom: 24px;
+}
+
+.field {
+    border: none;
+    border-radius: 12px;
+    padding: 18px 337px 18px 18px;
+    width: 527px;
+    height: 60px;
+    background-color: #f7f7f7;
+}
+
+.comment {
+    border: none;
+    border-radius: 10px;
+    padding: 18px 308px 76px 18px;
+    width: 527px;
+    height: 118px;
+    background-color: #f7f7f7;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 0 auto;
+}

@@ -12,7 +12,7 @@ export default function Navigation() {
     <div className={css.container}>
         <Logo />
       <nav className={css.nav}>
-        <ul>
+        <ul className={css.list}>
           <li>
             <NavLink to="/" className={getLinkClass}>
               Home

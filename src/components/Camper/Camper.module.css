@@ -1,0 +1,63 @@
+.card {
+    display: block;
+    border-radius: 10px;
+    width: 292px;
+    height: 320px;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    border: 1px solid #dadde1;
+    border-radius: 20px;
+    width: 888px;
+    height: 368px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.cardTytle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 524px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33em;
+    margin-bottom: 8px;
+}
+
+.heart {
+    width: 24px; 
+    height: 21px;
+    vertical-align: middle;
+}
+
+.heart:active {
+    fill: #e44848;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.star {
+    width: 16px;
+    height: 16px;
+    fill: #ffc531;
+    margin-right: 4px;
+    vertical-align: auto;
+}
+
+.line {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.descr {
+    margin-bottom: 24px;
+}

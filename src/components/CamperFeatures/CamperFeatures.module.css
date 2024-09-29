@@ -1,0 +1,28 @@
+.container {
+    display: block;
+    padding: 44px 52px;
+    width: 631px;
+    height: 588px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    margin-top: 44px;
+}
+
+.tytle {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2em;
+    margin-top: 76px;
+    margin-bottom: 24px;
+}
+
+.details {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.detailRow {
+    display: flex;
+    justify-content: space-between;
+}

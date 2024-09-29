@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    padding: 12px 18px;
+    background-color: #f2f4f7;
+    text-transform: capitalize;
+    flex-basis: auto;
+    font-weight: 500px;
+}
