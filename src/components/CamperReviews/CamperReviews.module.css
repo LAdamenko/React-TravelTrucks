@@ -2,7 +2,9 @@
     display: block;
     width: 631px;
     height: 588px;
-    margin-top: 44px;
+    position: absolute;
+    top: 800px;
+    left: 64px;
 }
 
 .reviewer {

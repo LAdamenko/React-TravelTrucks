@@ -8,6 +8,7 @@
     height: 72px;
     background-color: #f7f7f7;
     margin: 0 auto;
+    position: fixed;
   }
 
   .nav {

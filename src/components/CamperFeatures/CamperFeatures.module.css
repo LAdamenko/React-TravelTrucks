@@ -5,7 +5,9 @@
     height: 588px;
     border-radius: 10px;
     background-color: #f7f7f7;
-    margin-top: 44px;
+    position: absolute;
+    top: 800px;
+    left: 64px;
 }
 
 .tytle {

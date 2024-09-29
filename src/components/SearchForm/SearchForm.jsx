@@ -35,6 +35,8 @@ export default function SearchForm() {
         <h4 className={css.filterTytle}>Vehicle equipment</h4>
         <hr /> 
         <EquipmentCategories />
+        <h4 className={css.filterTytle}>Vehicle type</h4>
+        <hr /> 
         <button type="submit">Search</button>
             </Form>
         </Formik>
