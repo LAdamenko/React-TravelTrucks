@@ -4,6 +4,7 @@ import { useDispatch } from 'react-redux';
 import { selectLocationFilter } from "../../redux/filters/selectors";
 import css from './SearchForm.module.css'
 import EquipmentCategories from "../EquipmentCategories/EquipmentCategories";
+import VehicleType from "../VehicleType/VehicleType";
 
 export default function SearchForm() {
     const dispatch = useDispatch();
@@ -21,7 +22,7 @@ export default function SearchForm() {
     return (
         <Formik initialValues={{location: ""}} onSubmit={handleSubmit}>
             <Form className={css.container}>
-            <label htmlFor={locateFieldId}>Location</label>
+            <label htmlFor={locateFieldId} className={css.label}>Location</label>
         <Field as="select" name="location" id={locateFieldId} className={css.location}>
           <option value="Ukraine, Kyiv">Kyiv, Ukraine</option>
           <option value="Ukraine, Poltava">Poltava, Ukraine</option>
@@ -37,6 +38,7 @@ export default function SearchForm() {
         <EquipmentCategories />
         <h4 className={css.filterTytle}>Vehicle type</h4>
         <hr /> 
+        <VehicleType />
         <button type="submit">Search</button>
             </Form>
         </Formik>
